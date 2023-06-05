@@ -23,10 +23,10 @@
             <section id="main-left">
                 <section id="task-list">
                     <h2>Task List</h2>
-                    <div class="todo">
+                    <div class="todo" v-for="(todo,i) in taskList">
                         <div class="todo-left">
                             <input type="checkbox">
-                            <p>Fare la spesa</p>
+                            <p>{{todo.text}}</p>
                         </div>
                         <div class="todo-right">
                             <i class="fa-solid fa-xmark"></i>

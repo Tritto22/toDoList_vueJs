@@ -51,3 +51,7 @@ main{
 .todo p{
     margin-left: 20px;
 }
+
+i{
+    cursor: pointer;
+}
