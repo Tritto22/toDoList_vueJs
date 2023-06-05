@@ -55,3 +55,7 @@ main{
 i{
     cursor: pointer;
 }
+
+.through{
+    text-decoration: line-through;
+}
