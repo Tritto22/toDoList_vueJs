@@ -11,13 +11,41 @@ body{
 
 header{
     text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
 }
 
-main{
+#nav-main{
+    display: flex;
+    justify-content: center;
+}
+
+#select-list{
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nav-main input{
+    border-radius: 10px;
+    margin: 0 40px;
+}
+
+#nav-main button {
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    width: 60px;
+    text-transform: uppercase;
+}
+
+#container-lists{
     display: flex;
     justify-content: space-around;
     width: 80%;
-    margin: auto;
+    margin: 30px auto;
 }
 
 #main-left, #main-right{
@@ -46,6 +74,8 @@ main{
     display: flex;
     width: 500px;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(184, 243, 223);
+    padding: 7px;
 }
 
 .todo p{
@@ -58,4 +88,8 @@ i{
 
 .through{
     text-decoration: line-through;
+}
+
+#reminder {
+    margin-top: 50px;
 }
