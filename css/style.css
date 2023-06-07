@@ -31,6 +31,8 @@ header{
 #nav-main input{
     border-radius: 10px;
     margin: 0 40px;
+    width: 220px;
+    text-align: center;
 }
 
 #nav-main button {

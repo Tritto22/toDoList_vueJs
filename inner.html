@@ -26,7 +26,7 @@
                     <option value="2">top priorities</option>
                     <option value="3">reminder</option>
                 </select>
-                <input type="text" v-model="newText" @keyup.enter="add()">
+                <input type="text" placeholder="Inserisci un nuovo promemoria" v-model="newText" @keyup.enter="add()">
                 <button @click="add()">add</button>
             </section>
 
